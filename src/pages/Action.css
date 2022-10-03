@@ -1,0 +1,35 @@
+.box {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #ffff;
+    border: 5px solid #ffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+
+
+}
+
+.logo-image {
+    width: 70px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 150px;
+
+}
+
+.mail-input{
+   
+    margin-left: 67px;
+    border-radius: 10px;
+    padding: 6px;
+
+}
+.input-box{
+
+    width: 40px;  
+   
+}

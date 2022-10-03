@@ -1,0 +1,7 @@
+body{
+
+    background-image: url(../src/assets/auto.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
