@@ -6,6 +6,7 @@ import {
 
 } from 'react-router-dom';
 import CustDetails from './pages/CustDetails';
+import Location from './pages/Location';
 
 
 
@@ -16,7 +17,10 @@ function App() {
           <Switch>
           <Route exact path="/" component={Action}/>
          <Route path="/CustDetails" component={CustDetails}/>
+         <Route path="/Location" component={Location}/>
+         
           </Switch>
+       
 
      
           </Router>

@@ -1,7 +1,9 @@
 body{
 
-    background-image: url(../src/assets/auto.png);
-    background-repeat: no-repeat;
+    /* background-image: url(../src/assets/auto.png); */
+    /* background-repeat: no-repeat; */
+    background-color: #e5e5e5;
     height: 100vh;
     overflow: hidden;
+   
 }
