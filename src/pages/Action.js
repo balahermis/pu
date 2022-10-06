@@ -158,105 +158,147 @@ function Action() {
             <Carousel slide={true}>
                 <Carousel.Item>
                     <div className="row">
-                        <div className="col-5">
+                        <div className="col">
+                            <img
+                                className="d-block w-100"
+                                src={require("../assets/auto.png")}
+                                alt="First slide"
+                            />
+                        </div>
+                        <div className="col">
+                            <Carousel.Caption>
+                                <h3 className="">Auto</h3>
+                                <h6>Get an Auto at your doorstep</h6>
+                                <p>The all too familiar auto ride, minus the hassle of waiting and haggling for price. A convenient way to travel everyday.</p>
+                            </Carousel.Caption>
+                        </div>
+                    </div>
+
+
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div class="row">
+                        <div class="col">
+                            <img
+                                className="d-block w-100"
+                                src={require("../assets/bike.png")}
+                                alt="Second slide"
+                            />
+                        </div>
+                        <div class="col">
+                            <Carousel.Caption>
+                                <h3>Second slide label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </Carousel.Caption>
+                        </div>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div class="row">
+                        <div class="col">
+                            <img
+                                className="d-block w-100"
+                                src={require("../assets/mini.png")}
+                                alt="Third slide"
+                            />
+                        </div>
+                        <div class="col">
+                            <Carousel.Caption>
+                                <h3>Third slide label</h3>
+                                <p>
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                </p>
+                            </Carousel.Caption>
+                        </div>
+                    </div>
+
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div class="row">
+                        <div class="col">
+                            <img
+                                className="d-block w-100"
+                                src={require("../assets/prime-sedan.png")}
+                                alt="Third slide"
+                            />
+                        </div>
+                        <div class="col">
+                            <Carousel.Caption>
+                                <h3>Third slide label</h3>
+                                <p>
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                </p>
+                            </Carousel.Caption>
+                        </div>
+                    </div>
+
+
+
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div class="row">
+                        <div class="col">
+                            <img
+                                className="d-block w-100"
+                                src={require("../assets/prime-play.png")}
+                                alt="Third slide"
+                            />
+                        </div>
+                        <div class="col">
+                            <Carousel.Caption>
+                                <h3>Third slide label</h3>
+                                <p>
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                </p>
+                            </Carousel.Caption>
+                        </div>
+                    </div>
+
+
+
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div class="row">
+                        <div class="col">
+                            <img
+                                className="d-block w-100"
+                                src={require("../assets/mini.png")}
+                                alt="Third slide"
+                            />
+                        </div>
+                        <div class="col">
+                            <Carousel.Caption>
+                                <h3>Third slide label</h3>
+                                <p>
+                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                                </p>
+                            </Carousel.Caption>
+                        </div>
+                    </div>
+
+
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div class="row">
+                        <div class="col">
                         <img
-                            className="d-block w-100"
-                            src={require("../assets/auto.png")}
-                            alt="First slide"
-                        />
-                        </div>
-                        <div className="col-6">
-                        <Carousel.Caption>
-                            <h3 className="">Auto</h3>
-                            <h6>Get an Auto at your doorstep</h6>
-                            <p>The all too familiar auto ride, minus the hassle of waiting and haggling for price. A convenient way to travel everyday.</p>
-                        </Carousel.Caption>
-                        </div>
-                        </div>
-                        
-                        
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-50"
-                        src={require("../assets/bike.png")}
-                        alt="Second slide"
-                    />
-
-                    <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-50"
+                        className="d-block w-100"
                         src={require("../assets/mini.png")}
                         alt="Third slide"
                     />
-
+                        </div>
+                        <div class="col">
+                          
                     <Carousel.Caption>
                         <h3>Third slide label</h3>
                         <p>
                             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                         </p>
                     </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-50"
-                        src={require("../assets/prime-sedan.png")}
-                        alt="Third slide"
-                    />
+                        </div>
+                    </div>
+                   
 
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-50"
-                        src={require("../assets/prime-play.png")}
-                        alt="Third slide"
-                    />
-
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-50"
-                        src={require("../assets/mini.png")}
-                        alt="Third slide"
-                    />
-
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-50"
-                        src={require("../assets/mini.png")}
-                        alt="Third slide"
-                    />
-
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                        </p>
-                    </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
 
